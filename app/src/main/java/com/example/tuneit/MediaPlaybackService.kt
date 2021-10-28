@@ -9,7 +9,7 @@ import androidx.media.MediaBrowserServiceCompat
 private const val MY_MEDIA_ROOT_ID = "media_root_id"
 private const val MY_EMPTY_MEDIA_ROOT_ID = "empty_root_id"
 
-class MediaPlayerService : MediaBrowserServiceCompat() {
+class MediaPlaybackService : MediaBrowserServiceCompat() {
 
     private var mediaSession: MediaSessionCompat? = null
     private lateinit var stateBuilder: PlaybackStateCompat.Builder
