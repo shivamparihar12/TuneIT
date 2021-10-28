@@ -11,6 +11,7 @@ class SongViewModel : ViewModel() {
     override fun onCleared() {
         super.onCleared()
         Log.i("SongViewModel", "SongViewModel destroyed!")
+        songList= emptyList()
     }
 
 }
